@@ -1,0 +1,10 @@
+[
+    {
+        "name": "postgresql",
+        "chart": "stable/postgresql",
+        "chart-version": "8.6.4",
+        "value-file": "postgresql/values.yml",
+        "namespace": "default",
+        "secrets-file": "postgresql/secrets.yml"
+    }
+]
